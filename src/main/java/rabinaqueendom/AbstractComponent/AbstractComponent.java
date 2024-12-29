@@ -39,6 +39,12 @@ public void waitForElementToAppear(By findBy)
 	WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
 	wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
 }
+public void waitForElementToBeClickable(By findBy)
+{
+
+WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+wait.until(ExpectedConditions.elementToBeClickable(findBy));
+}
 
 public void waitForWebElementToAppear(WebElement findBy)
 {
