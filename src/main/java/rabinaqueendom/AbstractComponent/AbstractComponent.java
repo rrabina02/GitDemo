@@ -40,6 +40,8 @@ public void waitForElementToAppear(By findBy)
 	wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
 }
 
+
+
 public void waitForWebElementToAppear(WebElement findBy)
 {
 
