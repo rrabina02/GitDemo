@@ -38,13 +38,7 @@ public class CartPage extends AbstractComponent {
 		
 }
 
-		public Boolean VerifyProductNotDisplay(String productName)
-		{
-		
-		Boolean match = cartProducts.stream().anyMatch(cartProduct->cartProduct.getText().equalsIgnoreCase(productName));
-		return match;
-		
-}
+	
 		public CheckoutPage goToCheckOut()
 		{
 			checkout.click();

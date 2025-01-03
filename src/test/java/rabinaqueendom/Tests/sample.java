@@ -32,7 +32,7 @@ public class sample {
 		driver.findElement(By.id("userPassword")).sendKeys("Aa123123");
 		driver.findElement(By.id("login")).click();
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
-		System.out.println("Welcome");
+		
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
 		
 		List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
