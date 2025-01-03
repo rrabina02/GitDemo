@@ -14,7 +14,7 @@ import rabinaqueendom.pageObjects.OrderPage;
 import rabinaqueendom.pageObjects.ProductCatalogue;
 
 public class StandAloneTest extends BaseTests {
-	public static String productName= "ZARA COAT 3";
+	private static String productName= "ZARA COAT 3";
 	//String productName= "ZARA COAT 3";
 	public static String message="THANKYOU FOR THE ORDER.";
 	public static String country="India";
