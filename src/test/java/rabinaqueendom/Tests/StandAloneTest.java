@@ -28,7 +28,7 @@ public class StandAloneTest extends BaseTests {
 		//String message="THANKYOU FOR THE ORDER.";
 		//LandingPage landingPage=launchApplication();
 		
-		
+		//new comment
 		ProductCatalogue productCatalog= landingPage.loginApplication("yuvasri1@gmail.com", "Aa123123");
 		
 		productCatalog.addProductToCart(productName);;
